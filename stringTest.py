@@ -9,3 +9,9 @@ longString = "Oh, well! it is just as he chooses. Nobody wants him to come."
 print( len(longString) )
 
 # compute the number of characters in longString
+
+count = 0
+for ch in longString:
+    count += 1
+    # print(ch)
+print(count, len(longString))
